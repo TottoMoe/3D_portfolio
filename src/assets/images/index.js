@@ -1,15 +1,14 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+// import interstate from './interstate.png'
+import it from './it.png'
+import aimbridge from './aimbridge.png'
+import interstate from './interstate.png'
 import logo from './logo.svg'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
+    it,
+    aimbridge,
+    interstate,
     logo
 }

@@ -1,5 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { interstate, it, aimbridge } from "../assets/images";
 import {
+  bootstrap,
   car,
   contact,
   css,
@@ -9,13 +10,15 @@ import {
   github,
   html,
   javascript,
+  java,
+  jquery,
   linkedin,
   mongodb,
-  motion,
-  mui,
+  mysql,
   nextjs,
   nodejs,
   pricewise,
+  python,
   react,
   redux,
   sass,
@@ -24,23 +27,30 @@ import {
   tailwindcss,
   threads,
   typescript,
+  vs,
+  vite,
 } from "../assets/icons";
 
 export const skills = [
   {
-    imageUrl: css,
-    name: "CSS",
+    imageUrl: javascript,
+    name: "JavaScript",
     type: "Frontend",
   },
   {
-    imageUrl: express,
-    name: "Express",
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
     type: "Backend",
   },
   {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
+    imageUrl: java,
+    name: "Java",
+    type: "Backend",
   },
   {
     imageUrl: github,
@@ -48,43 +58,18 @@ export const skills = [
     type: "Version Control",
   },
   {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
-    imageUrl: motion,
-    name: "Motion",
-    type: "Animation",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
+    imageUrl: vs,
+    name: "VS Code",
+    type: "Coding Editor",
   },
   {
     imageUrl: react,
     name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
     type: "Frontend",
   },
   {
@@ -93,73 +78,117 @@ export const skills = [
     type: "State Management",
   },
   {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
     imageUrl: sass,
     name: "Sass",
     type: "Frontend",
   },
   {
     imageUrl: tailwindcss,
-    name: "Tailwind CSS",
+    name: "Tailwindcss",
     type: "Frontend",
   },
   {
-    imageUrl: typescript,
-    name: "TypeScript",
+    imageUrl: vite,
+    name: "Vite",
+    type: "Frontend",
+  },
+  {
+    imageUrl: mysql,
+    name: "Mysql",
+    type: "Database",
+  },
+  {
+    imageUrl: jquery,
+    name: "Jquery",
     type: "Frontend",
   },
 ];
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Network Engineer/Field Tech",
+    company_name: "My EasyIT.Inc",
+    icon: it,
     iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working in a small fast-paced startup, implements and maintains secure and scalable networking infrastructure, project management, ensuring 99.9% uptime for operations through proactive monitoring and troubleshooting to safeguard critical data.",
+      "Designs and executes network security policies, configurations, hardware, compiler, basic, enterprise, installing programs and software, and communicating with vendors resulting in defense against threats and achieving a 98% compliance rate with industry regulations.",
+      "Provides comprehensive tech support for 100+ hotels nationwide, addressing and resolving tech and computer issues, to ensure network operations through toning cables and installing servers.",
+      "Played a key role in web development and maintenance, overseeing the creation and updating of content to enhance the user experience and website functionality.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Junior Software Clerk",
+    company_name: "Aimbridge Hospitality",
+    icon: aimbridge,
     iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    date: "Apl 2021 - Oce 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered comprehensive software and system training sessions to enhance team members' proficiency and efficiency resulting in 100% completion rate.",
+      "Fostered work collaboratively and communicate with cross-functional departments to provide support for various information technology, software technologies, tools, and code maintenance, ensuring seamless integration and optimal performance.",
+      "Conducted monthly safety committee training, collected customer value and feedback and created guides growth 70% of employees' safety.",
+    ],
+  },
+  {
+    title: "Data Analyst",
+    company_name: "Interstate Hotels & Resorts",
+    icon: interstate,
+    iconBg: "#fbc3bc",
+    date: "Jan 2018 - June 2021",
+    points: [
+      "Analyze and monitor financial statements, ensuring daily cash flow is stable.",
+      "Assist with monthly financial reporting, and make sure it is submitted to the management on time.",
+      "Implement data quality checks and validation processes to ensure data completeness, accuracy,consistency, and reliability.",
+      "Identify patterns, anomalies, and correlations within datasets to support business decision-making and strategic planning.",
+    ],
+  },
+  {
+    title: "Accounting & Revenue Team",
+    company_name: "Interstate Hotels & Resorts",
+    icon: interstate,
+    iconBg: "#accbe1",
+    date: "Jun 2016 - Jan 2018",
+    points: [
+      "Analyzed collected data to identify patterns and trends, and develop insights that help drive business decisions.",
+      "Forecasted and budgeted while working with the team to implement changes to improve efficiency and accuracy.",
+      "Identify data discrepancies, errors, and inconsistencies through data profiling and analysis, and collaborate with data engineers or stakeholders to resolve issues.",
+      "Continuously monitor data quality metrics and implement strategies to improve data integrity and reliability over time.",
     ],
   },
 ];
@@ -173,12 +202,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/TottoMoe",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/jennyhjdeng",
   },
 ];
 
@@ -186,49 +215,49 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "Amazon Star Chart",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "A appointments app for an administrator to access the scheduling that is scalable and dynamic with views that provide specific information about each individual user, and their events.",
+    link: "https://github.com/TottoMoe/star-chart",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "MVC TechBlog",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "A CMS-style blog where developers can publish their blog posts and comment on other developers posts as well.",
+    link: "https://github.com/TottoMoe/MVCTechBlog",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Car Rental App",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Designed and built a promotional site for users to simulate and visualize outcomes of renting cars in different categories in a fast and convenient way.",
+    link: "https://primary-keys-rentals.herokuapp.com/login",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Social Network API",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.",
+    link: "https://github.com/TottoMoe/SocialNetworkAPI",
   },
   {
     iconUrl: estate,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Text Editor PWA",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Use Progressive Web Applications(PWA) to build a Text Editor. It features a number of data persistence techniques that serve as redundancy in case is not supported by the brower, and the application can function offline.",
+    link: "https://github.com/TottoMoe/TextEditorPWA",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Team Profile Generator",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "This application was created to generate a high-quality, professional Team Profile base on a series of questions a user answers in their command line using Node.js in their local machine.",
+    link: "https://github.com/TottoMoe/TeamProfileGenerator",
   },
 ];

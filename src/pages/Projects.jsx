@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="lg:w-[400px] w-full" key={project.name}>
             <div className="block-container w-12 h-12">
               <div className={`btn-back rounded-xl ${project.theme}`} />
-                <div className="btn-front rounded-xl flex justify-center items-center">
+              <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
                   src={project.iconUrl}
                   alt="Project Icon"
@@ -41,9 +41,7 @@ const Projects = () => {
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
               </h4>
-              <p className="mt-2 text-slate-500">
-                {project.description}
-              </p>
+              <p className="mt-2 text-slate-500">{project.description}</p>
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}
@@ -63,7 +61,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <hr className="border-slate-200"/>
+      <hr className="border-slate-200" />
       <CTA />
     </section>
   );

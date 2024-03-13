@@ -5,7 +5,7 @@ import github from './github.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
-import motion from './motion.svg'
+import python from './python.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
@@ -26,17 +26,26 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import java from './java.svg'
+import vs from './vs.svg'
+import mysql from './mysql.svg'
+import vite from './vite.svg'
+import jquery from './jquery.svg'
+import bootstrap from './bootstrap.svg'
 
 export {
+    bootstrap,
     css,
     express,
     git,
     github,
     html,
     javascript,
+    java,
+    jquery,
     mongodb,
-    motion,
-    mui,
+    python,
+    mysql,
     nextjs,
     nodejs,
     react,
@@ -55,5 +64,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    vs,
+    vite,
 }
